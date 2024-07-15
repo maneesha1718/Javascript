@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="MultiPager.css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <h1>JavaScript Assessment</h1>
+            <div class="flex-container">
+                <div class="child" id="emoji" style="background-color: rgba(255, 255, 0, 0.892); color: rgba(13, 1, 70, 0.951);"
+                onclick="emojiPage()">Emoji Maker</div>
+                <div class="child" id="quiz" style="background-color: rgba(13, 1, 70, 0.951); color: rgba(255, 255, 0, 0.892);"
+                onClick="quizPage()">Quiz App</div>
+                <div class="child" id="watch" style="background-color: rgba(255, 255, 2, 0.884); color: rgba(13, 1, 70, 0.951);">Watch Page</div>
+                <div class="child" id="form" style="background-color: rgba(13, 1, 70, 0.951); color: rgba(255, 255, 0, 0.892);">Multi-Step Form </div>
+            </div>
+        </div>
+        <script>
+            function emojiPage(){
+                location.href="Emoji.html";
+            }
+        </script>
+        <script>
+            function quizPage(){
+                location.href="Quiz.html";
+            }
+        </script>
+        
+    </body>
+
+</html>

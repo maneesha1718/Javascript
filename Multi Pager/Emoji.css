@@ -1,0 +1,36 @@
+.colours{
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    margin: 20px 5px 0 5px;
+    border-radius: 50%;
+    border: 4px solid black;
+    display: inline-block;
+}
+
+.buttons{
+    align-self: center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+
+.parts{
+    height: 60px;
+    width: 60px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.eye_align{
+    position: fixed;
+    left: 625px;
+    margin-top: 37px;
+}
+
+.mouth_align{
+    position: fixed;
+    bottom: 280px;
+    left: 625px;
+}

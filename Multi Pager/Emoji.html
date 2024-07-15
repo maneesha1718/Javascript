@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Emoji</title>
+        <link rel="stylesheet" href="MultiPager.css">
+        <link rel="stylesheet" href="Emoji.css">
+    </head>
+
+    <body>
+        <a href="/" title="Home Page">Home Page</a>
+        <h1>Emoji Maker</h1>
+        <div class="flex-container">
+            
+            <div class="child" style="background-color: rgba(255, 255, 0, 0.892); height: 250px; width: 400px; justify-content: space-between;">
+                <div class="buttons" id="prev_button" onclick="pageChange('prev_button')">&lt;</div>
+                <div id="Page1" style="align-self: flex-start;">
+                    <h3>Select Colour</h3>
+                    <div>
+                        <span class="colours" style="background-color: orange;" id="orange" onClick="faceColour('orange')"> </span>
+                        <span class="colours" style="background-color: rgb(1, 186, 1);" id="green" onClick="faceColour('green')"> </span>
+                        <span class="colours" style="background-color: red;" id="red" onClick="faceColour('red')"></span>
+                    </div>
+                </div>
+                <div id="Page2" style="display: none;">
+                    <h3>Select Eyes</h3>
+                    <div>
+                        <img class="parts" id="eye1" src="Emoji parts/eye-0.svg" onClick="eyeChange('eye1')">
+                        <img class="parts" id="eye2" src="Emoji parts/eye-1.svg" onClick="eyeChange('eye2')">
+                        <img class="parts" id="eye3" src="Emoji parts/eye-2.svg" onClick="eyeChange('eye3')">
+                        <img class="parts" id="eye4" src="Emoji parts/eye-3.svg" onClick="eyeChange('eye4')">
+                        <img class="parts" id="eye5" src="Emoji parts/eye-4.svg" onClick="eyeChange('eye5')">
+                    </div>
+                </div>
+                <div id="Page3" style="display: none;">
+                    <h3>Select Mouth</h3>
+                    <div>
+                        <img class="parts" id="mouth1" src="Emoji parts/mouth-0.svg" onClick="mouthChange('mouth1')">
+                        <img class="parts" id="mouth2" src="Emoji parts/mouth-1.svg" onClick="mouthChange('mouth2')">
+                        <img class="parts" id="mouth3" src="Emoji parts/mouth-2.svg" onClick="mouthChange('mouth3')">
+                        <img class="parts" id="mouth4" src="Emoji parts/mouth-3.svg" onClick="mouthChange('mouth4')">
+                        <img class="parts" id="mouth5" src="Emoji parts/mouth-4.svg" onClick="mouthChange('mouth5')">
+                    </div>
+                </div>
+                <div class="buttons" id="next_button" onclick="pageChange('next_button')">&gt;</div>
+            </div>
+            <div class="child" id="sec2" style="background-color: rgba(13, 1, 70, 0.951); height: 250px; width: 400px;"></div>
+        </div>
+        <script src="Emoji.js"></script>
+    </body>
+
+</html>
